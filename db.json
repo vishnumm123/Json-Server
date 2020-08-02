@@ -1,19 +1,367 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "email": "john@pixinvent.com",
+      "password": "$2a$10$0kDqI3FEc3HS8EWJt5r1jeGBnfoGYGd9c.septyihqPy49ybm62qO",
+      "name": "Vishnu MM",
+      "age": "23",
+      "id": 1
     }
   ],
-  "comments": [
+  "customers": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "John Doe",
+      "phone": "910928392098",
+      "address": "123 Sun Street",
+      "membership": "Platinum",
+      "id": 1
+    },
+    {
+      "name": "Mary Johnson",
+      "phone": "808937482734",
+      "address": "893 Main Voulevard",
+      "membership": "Pro",
+      "id": 2
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "EffectsTest": [
+    {
+      "name": "John Doe",
+      "id": 1
+    },
+    {
+      "name": "Mary Johnson",
+      "id": 2
+    }
+  ],
+  "Store-Test": [
+    {
+      "name": "Vishnu",
+      "id": 1
+    },
+    {
+      "name": "Vinayak",
+      "id": 2
+    },
+    {
+      "name": "Vivek",
+      "id": 3
+    },
+    {
+      "name": "Bindhu",
+      "id": 4
+    },
+    {
+      "name": "Name",
+      "id": 4
+    },
+    {
+      "name": "Name",
+      "id": 4
+    },
+    {
+      "name": "Name",
+      "id": 4
+    }
+  ],
+  "user-data": [
+    {
+      "name": "Vishnu",
+      "id": 1
+    },
+    {
+      "name": "Vinayak",
+      "id": 2
+    },
+    {
+      "name": "Vivek",
+      "id": 3
+    },
+    {
+      "name": "Bindhu",
+      "id": 4
+    }
+  ],
+  "home-menu": [
+    {
+      "menu_heading": "Money Transfer",
+      "items": [
+        {
+          "sub_menu": "Send",
+          "type_action": "routing",
+          "action": "/money-transfer/send-money",
+          "image": "assets/images/icons/send-money.png"
+        },
+        {
+          "sub_menu": "Withdraw",
+          "type_action": "event",
+          "action": "EkoAEPS",
+          "image": "assets/images/icons/withdraw.png"
+        },
+        {
+          "sub_menu": "Balance",
+          "type_action": "event",
+          "action": "EkoAEPS",
+          "image": "assets/images/icons/wallet-balance.png"
+        },
+        {
+          "sub_menu": "Mini Statement",
+          "type_action": "event",
+          "action": "EkoAEPS",
+          "image": "assets/images/icons/mini-statement.png"
+        }
+      ]
+    },
+    {
+      "menu_heading": "Recharge And Bill Payments",
+      "items": [
+        {
+          "sub_menu": "Recharge",
+          "type_action": "routing",
+          "action": "/recharge-and-bill-payments/mobile-recharge",
+          "image": "assets/images/icons/mobile-recharge.png"
+        },
+        {
+          "sub_menu": "Electricity",
+          "type_action": "routing",
+          "action": "/recharge-and-bill-payments/electricity-bill",
+          "image": "assets/images/icons/electricity.png"
+        },
+        {
+          "sub_menu": "Water",
+          "type_action": "routing",
+          "action": "/recharge-and-bill-payments/water-bill",
+          "image": "assets/images/icons/water.png"
+        },
+        {
+          "sub_menu": "DTH",
+          "type_action": "routing",
+          "action": "/recharge-and-bill-payments/dth-recharge",
+          "image": "assets/images/icons/dth.png"
+        },
+        {
+          "sub_menu": "Gas-Pippedline",
+          "type_action": "routing",
+          "action": "/recharge-and-bill-payments/gas-piped-line-bill",
+          "image": "assets/images/icons/gas-pipeline.png"
+        },
+        {
+          "sub_menu": "Insurance",
+          "type_action": "routing",
+          "action": "/recharge-and-bill-payments/insurance-payment",
+          "image": "assets/images/icons/insurance.png"
+        },
+        {
+          "sub_menu": "LPG Booking",
+          "type_action": "routing",
+          "action": "/recharge-and-bill-payments/lpg-booking",
+          "image": "assets/images/icons/gas.png"
+        },
+        {
+          "sub_menu": "More",
+          "type_action": "routing",
+          "action": "/money-transfer/withdraw",
+          "image": "assets/images/icons/more.png"
+        }
+      ]
+    },
+    {
+      "menu_heading": "Travel And Booking",
+      "items": [
+        {
+          "sub_menu": "Train",
+          "type_action": "routing",
+          "action": "/money-transfer/send-money",
+          "image": "assets/images/icons/train.png"
+        },
+        {
+          "sub_menu": "Air",
+          "type_action": "routing",
+          "action": "/money-transfer/withdraw",
+          "image": "assets/images/icons/airplane.png"
+        },
+        {
+          "sub_menu": "Hotel",
+          "type_action": "routing",
+          "action": "/money-transfer/withdraw",
+          "image": "assets/images/icons/hotel.png"
+        },
+        {
+          "sub_menu": "More",
+          "type_action": "routing",
+          "action": "/money-transfer/withdraw",
+          "image": "assets/images/icons/more.png"
+        }
+      ]
+    },
+    {
+      "menu_heading": "International Money Transfer",
+      "items": [
+        {
+          "sub_menu": "Indo - Nepal",
+          "type_action": "routing",
+          "action": "/money-transfer/send-money",
+          "image": "assets/images/icons/nepal.png"
+        },
+        {
+          "sub_menu": "More",
+          "type_action": "routing",
+          "action": "/money-transfer/withdraw",
+          "image": "assets/images/icons/more.png"
+        }
+      ]
+    }
+  ],
+  "Send-money-Phone": [
+    {
+      "phone": "8943214787",
+      "id": 1
+    },
+    {
+      "phone": "9947205365",
+      "id": 2
+    },
+    {
+      "phone": "8943214782",
+      "id": 3
+    },
+    {
+      "phone": "8943214784",
+      "id": 4
+    },
+    {
+      "phone": "8943214732",
+      "id": 5
+    },
+    {
+      "phone": "8943214780",
+      "id": 6
+    },
+    {
+      "phone": "8943214786",
+      "id": 7
+    }
+  ],
+  "beneficiaries": [
+    {
+      "acc_no": "6677667777677",
+      "bank": "Kotak Mahindra Bank",
+      "name": "Vishnu",
+      "user_id": "1",
+      "Acc_holder_name": "Vishnu MM",
+      "branck_name": "Nadakkavu",
+      "State": "Kerala",
+      "City": "Calicut",
+      "id": 1
+    },
+    {
+      "acc_no": "123456",
+      "bank": "HDFC",
+      "name": "Athul",
+      "user_id": 1,
+      "Acc_holder_name": "Athul ",
+      "branck_name": "Calicut",
+      "State": "Kerala",
+      "City": "Calicut",
+      "id": 2
+    },
+    {
+      "acc_no": "123456",
+      "bank": "HDFC",
+      "name": "Jyothis",
+      "user_id": 1,
+      "Acc_holder_name": "Jyothis",
+      "branck_name": "Calicut",
+      "State": "Kerala",
+      "City": "Calicut",
+      "id": 3
+    },
+    {
+      "acc_no": "123456",
+      "bank": "Kotak Mahindra Bank",
+      "name": "Vishnu ",
+      "user_id": 2,
+      "Acc_holder_name": "Vishnu MM",
+      "branck_name": "nadakkav",
+      "State": "Kerala",
+      "City": "Calicut",
+      "id": 4
+    },
+    {
+      "acc_no": "123456",
+      "bank": "Federal",
+      "name": "Sharun",
+      "user_id": 1,
+      "Acc_holder_name": "Sharun",
+      "branck_name": "Calicut",
+      "State": "Kerala",
+      "City": "Kannur",
+      "id": 5
+    },
+    {
+      "acc_no": "123456",
+      "bank": "HDFC",
+      "name": "Vishnu",
+      "user_id": 3,
+      "Acc_holder_name": "Vishnu MM",
+      "branck_name": "Calicut",
+      "State": "Kerala",
+      "City": "Calicut",
+      "id": 6
+    }
+  ],
+  "Banks": [
+    {
+      "bank_name": "SBI",
+      "id": 1
+    },
+    {
+      "bank_name": "Kotak Mahindra Bank",
+      "id": 2
+    },
+    {
+      "bank_name": "HDFC",
+      "id": 3
+    },
+    {
+      "bank_name": "ICICI",
+      "id": 4
+    },
+    {
+      "bank_name": "Federal",
+      "id": 5
+    }
+  ],
+  "city": [
+    {
+      "city_name": "Calicut",
+      "id": 1
+    },
+    {
+      "city_name": "Kannur",
+      "id": 2
+    },
+    {
+      "city_name": "Eranamkulam",
+      "id": 3
+    },
+    {
+      "city_name": "Trissur",
+      "id": 4
+    },
+    {
+      "city_name": "Malappuram",
+      "id": 5
+    },
+    {
+      "city_name": "Kottayam",
+      "id": 6
+    }
+  ],
+  "state": [
+    {
+      "state_name": "Kerala",
+      "id": 1
+    }
+  ]
 }

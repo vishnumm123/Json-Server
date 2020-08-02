@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "email": "john@pixinvent.com",
+      "password": "$2a$10$0kDqI3FEc3HS8EWJt5r1jeGBnfoGYGd9c.septyihqPy49ybm62qO",
+      "name": "Vishnu MM",
+      "age": "23",
+      "id": 1
+    }
+  ],
+  "customers": [
+    {
+      "name": "John Doe",
+      "phone": "910928392098",
+      "address": "123 Sun Street",
+      "membership": "Platinum",
+      "id": 1
+    },
+    {
+      "name": "Mary Johnson",
+      "phone": "808937482734",
+      "address": "893 Main Voulevard",
+      "membership": "Pro",
+      "id": 2
+    }
+  ],
+  "EffectsTest": [
+    {
+      "name": "John Doe",
+      "id": 1
+    },
+    {
+      "name": "Mary Johnson",
+      "id": 2
+    }
+  ],
+  "Store-Test": [
+    {
+      "name": "Vishnu",
+      "id": 1
+    },
+    {
+      "name": "Vinayak",
+      "id": 2
+    },
+    {
+      "name": "Vivek",
+      "id": 3
+    },
+    {
+      "name": "Bindhu",
+      "id": 4
+    },
+    {
+      "name": "Name",
+      "id": 4
+    },
+    {
+      "name": "Name",
+      "id": 4
+    },
+    {
+      "name": "Name",
+      "id": 4
+    }
+  ]
+}

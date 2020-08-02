@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "email": "john@pixinvent.com",
+      "password": "$2a$10$0kDqI3FEc3HS8EWJt5r1jeGBnfoGYGd9c.septyihqPy49ybm62qO",
+      "name": "Vishnu MM",
+      "age": "23",
+      "id": 1
+    }
+  ]
+}
